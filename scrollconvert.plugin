@@ -7,4 +7,4 @@ Description=Scroll through formattings of special characters. Highlight text and
 Authors=Noah Greenstein <ng@noahgreenstein.com>
 Copyright=Copyright © 2016 Noah Greenstein
 Website=https://github.com/nogre/gedit-scroll-convert
-Version=3.0.0
+Version=.9
