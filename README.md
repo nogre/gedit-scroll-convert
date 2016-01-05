@@ -10,6 +10,6 @@ Then enable under Gedit: Preferences: Plugins.
 
 ### Usage
 
-Highlight special character or code and press shortcut key, `<Alt-v>`. The old character or code will be replaced by the next available value. Available languages are selectable under the plugin's preferences. Ascii and Html name are enabled by default.
+Highlight special character or code and press shortcut key, `<Alt-v>`. The selected character or code will be replaced by the next available value. Available languages are selectable under the plugin's preferences. Ascii and Html Name are enabled by default.
 
-NB: Some Latex codes require packages or encodings to be used.
+NB: Some Latex codes require optional packages or encodings to be used.
