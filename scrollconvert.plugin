@@ -6,5 +6,5 @@ Name=Scroll Convert
 Description=Scroll through formattings of special characters. <Alt-v> activated. Selectable languages, including: ascii, hex, decimal, html name, latex.
 Authors=Noah Greenstein <ng@noahgreenstein.com>
 Copyright=Copyright © 2016 Noah Greenstein
-Website=http://www.noahgreenstein.com
+Website=https://github.com/nogre/gedit-scroll-convert
 Version=3.0.0
