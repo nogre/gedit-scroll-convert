@@ -1,4 +1,4 @@
-# gedit-scroll-convert
+# Scroll Convert Special Characters for Gedit
 
 Scroll through formattings of special characters. Highlight text and hit `<Alt-v>`. Selectable languages, including: ascii, hex, decimal, html name, latex.
 
