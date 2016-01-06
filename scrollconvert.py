@@ -16,7 +16,7 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 #  Based on:
-#  Convert Special Plugin Copyright - (C) 2012 Marco Crippa
+#  Convert Special Plugin, Copyright - (C) 2012 Marco Crippa
 
 from gi.repository import GObject, Gtk, Gedit, PeasGtk, Gio
 
