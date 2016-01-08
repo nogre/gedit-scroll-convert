@@ -474,7 +474,7 @@ class ScrollConvertPluginAppActivatable(GObject.Object, Gedit.AppActivatable, Pe
         for x in mod2:
             accel2.append_text(x)
 
-        if len(actions[1])>9:
+        if actions[1].count('<')>1:
             i = actions[1].index("<", 2)
             accel0.set_active(mod0.index(actions[1][:i]))
             accel1.set_active(mod1.index(actions[1][i:-1]))
@@ -511,13 +511,13 @@ class ScrollConvertPluginAppActivatable(GObject.Object, Gedit.AppActivatable, Pe
         if num == 2:
             actions[1] = actions[1][:-1] + button.get_active_text()
         elif num == 1:
-            if len(actions[1])>9:
+            if actions[1].count('<')>1:
                 i = actions[1].index("<", 2)
                 actions[1] = actions[1][:i] + button.get_active_text() + actions[1][-1:]
             else:
                 actions[1] = button.get_active_text() + actions[1][-1:]
         elif num == 0:
-            if len(actions[1])>9:
+            if actions[1].count('<')>1:
                 i = actions[1].index("<", 2)
                 actions[1] = button.get_active_text() + actions[1][i:]
             else:
